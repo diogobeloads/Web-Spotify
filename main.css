@@ -1,0 +1,18 @@
+body {
+  background-image: linear-gradient(
+      rgb(29, 40, 42),
+      rgb(59,88,93)
+      );
+  height: 100vh; 
+  color: white;
+  font-family: sans-serif;
+  display: flex; 
+  flex-direction: column;
+}
+h1,h2,body {
+  font-family: 'Nunito', sans-serif; ;
+}
+
+img {
+  width: 200px;
+}
