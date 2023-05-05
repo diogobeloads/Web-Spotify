@@ -15,23 +15,25 @@
 <body>
     <div class="music-container">          
         <h2 id="playlist-title">Playlist Rock</h2>
-        <img id="cover" src="./img/mtv-ao-vivo-cd-duplo.jpg"></img>
+        <img id="cover" alt="disc-cover"></img>
+        <audio id="audio"></audio>
         <div id="below-cover">
             <div id="song-info">
                 <div id="song-name">Nome da musica</div>
                 <div id="band-name" class="light-color">Nome da banda</div>
             </div>        
-            <div id="like" class="button light-color"><i class="bi bi-suit-heart-fill"></i></div>
+            <button id="like" class="button light-color"><i class="bi bi-suit-heart-fill"></i></button>
         </div>
         <div id="progress-bar"></div>
             <div id="current-progress"></div>
         <div id="button-container">
-            <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
-            <div id="previous" class="button button-navigate"><i class="bi bi-skip-backward"></i></div>
-            <div id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></i></div>
-            <div id="next" class="button button-navigate"><i class="bi bi-skip-forward"></i></div>
-            <div id="repeat" class="button"><i class="bi bi-arrow-repeat"></i></div>
+            <buttton id="shuffle" class="button"><i class="bi bi-shuffle"></i></buttton>
+            <buttton id="previous" class="button button-navigate"><i class="bi bi-skip-backward-fill"></i></buttton>
+            <buttton id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></i></buttton>
+            <buttton id="next" class="button button-navigate"><i class="bi bi-skip-forward-fill"></i></buttton>
+            <buttton id="repeat" class="button"><i class="bi bi-arrow-repeat"></i></buttton>
         </div>
-    </div>  
+    </div>
+    <script src="./script.js"></script>  
 </body>
 </html>

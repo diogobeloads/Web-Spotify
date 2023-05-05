@@ -11,6 +11,13 @@ body {
   align-items: center;
 
 }
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+}
+
 h1,h2,body {
   font-family: 'Nunito', sans-serif; ;
 }
