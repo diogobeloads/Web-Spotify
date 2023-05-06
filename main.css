@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
+  background-image: linear-gradient(rgb(5, 61, 22), rgb(48, 44, 6));
   height: 100vh;
   color: white;
   font-family: sans-serif;
@@ -12,6 +12,11 @@ button {
   background-color: inherit;
   color: inherit;
   border: none;
+}
+
+#music-container{
+  display: flex;
+  align-items: center;
 }
 
 #below-cover {
@@ -31,6 +36,7 @@ button {
 
 .button {
   font-size: 1.5em;
+  cursor: pointer;
 }
 
 .button-navigate {
@@ -42,7 +48,7 @@ button {
 }
 
 #cover {
-  width: 450px;
+  width: 400px;
 }
 
 #playlist-title {
@@ -65,13 +71,22 @@ button {
   background-color: rgb(139, 153, 156);
   height: 3px;
   width: 100%;
-  border-radius: 15px;
-  margin-bottom: 1em;
+  border-radius: 15px;    
 }
 
 #current-progress {
+  --progress: 0%;
   background-color: white;
   height: inherit;
-  width: 50%;
+  width: var(--progress);
   border-radius: inherit;
+}
+
+#progress-container {
+  padding-bottom: 1em;
+  cursor: pointer;
+}
+
+.button-active {
+  color: rgb(9, 219, 44);
 }
